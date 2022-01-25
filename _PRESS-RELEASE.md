@@ -1,4 +1,4 @@
-# Project Name #
+# Forecast #
 
 <!-- 
 > This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.
@@ -16,22 +16,19 @@ Oh, and I also like to write press-releases in what I call "Oprah-speak" for mai
 Once the project moves into development, the press release can be used as a touchstone; a guiding light. The product team can ask themselves, "Are we building what is in the press release?" If they find they're spending time building things that aren't in the press release (overbuilding), they need to ask themselves why. This keeps product development focused on achieving the customer benefits and not building extraneous stuff that takes longer to build, takes resources to maintain, and doesn't provide real customer benefit (at least not enough to warrant inclusion in the press release).
  -->
  
-## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
 
-## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+## For everyone, everyday! Get the daily and weekly weather forecast for any location so you know what's coming.  ##
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  > The application allows users to add locations and see the daily/weekly weather forecast for a selected location. The application's backgrounds and images are dynamically rendered to align with the forecast data shown on the screen, making the application feel more immersive. Users can save locations and favorite them to quickly recieve weather information of frequently searched areas. This application makes it easy to get accuarate, up to date weather information so users are prepared for the days ahead.
 
 ## Problem ##
-  > Describe the problem your product solves.
+  > Obtain accurate weather forecast for selected locations.
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
+  > Create a weather application that regularly requests information from trusted weather API and displays information with fun and easy to read UI/UX. 
 
-## Quote from You ##
+## Quote from Mitchell ##
   > A quote from a spokesperson in your company.
 
 ## How to Get Started ##
