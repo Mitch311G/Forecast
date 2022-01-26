@@ -1,0 +1,75 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+.pageHeader {
+  background-color: skyblue;
+  color: yellow;
+  font-size: 4em;
+  padding: 5% 5% 2%;
+  font-style: italic;
+  height: 2%;
+}
+
+.today {
+  float: right;
+  color: white;
+  font-size: 0.5em;
+}
+
+.day {
+  text-align: center;
+}
+
+#app {
+  width: 60%;
+  margin: auto;
+  height: 100vh;
+  background: url('./assets/clear-sky.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid 2px grey;
+  color: white;
+}
+
+.loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5em;
+}
+.weather {
+  text-align: center;
+  margin-top: 3%;
+  font-size: 3em;
+}
+
+.temp {
+  font-size: 4em;
+}
+
+.description {
+  margin-bottom: 0.5%;
+}
+
+.min_max {
+  margin-bottom: 5%;
+}
+
+.high {
+  margin: 1%;
+}
+
+.low {
+  margin: 1%;
+}
+
+.details {
+  background-color: rgba(135, 206, 235, .6);
+  border-radius: 25px;
+  margin: 3%;
+}

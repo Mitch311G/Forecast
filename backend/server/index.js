@@ -23,7 +23,7 @@ app.get('/api/cities', (req, res) => {
 
 app.post('/api/cities', (req, res) => {
   const name = req.body;
-
+  console.log(name)
   saveCity(name, (err) => {
     if (err) {
       res.status(400).send(err);
