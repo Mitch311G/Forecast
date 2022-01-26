@@ -50,7 +50,7 @@ const App = () => {
 
   return (
     <div>
-      <div class="pageHeader">
+      <div className="pageHeader">
         <span>FORECAST</span>
         <div className='today'>
           <div className='day'>{moment().format('dddd')}</div>
@@ -58,7 +58,7 @@ const App = () => {
         </div>
       </div>
 
-      <Dropdown cities={cities} fetchCityWeather={fetchCityWeather}/>
+      <Dropdown cities={cities} fetchCityWeather={fetchCityWeather} fetchLocalWeather={fetchLocalWeather}/>
       <NewCity fetchCities={fetchCities}/>
 
       {(typeof weatherData.main != 'undefined')
