@@ -1,4 +1,5 @@
 var path = require('path');
+const { webpack } = require('webpack');
 var SRC_DIR = path.join(__dirname, '/frontend/src');
 var DIST_DIR = path.join(__dirname, '/frontend/dist');
 
