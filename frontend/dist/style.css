@@ -8,10 +8,14 @@ body {
   background-color: skyblue;
   color: yellow;
   font-size: 4em;
-  padding: 5% 5% 2%;
+  padding: 2% 5%;
   font-style: italic;
   height: 2%;
   margin-bottom: 2%;
+}
+
+.logo {
+  margin-right: 1%;
 }
 
 .today {
@@ -27,13 +31,14 @@ body {
 #app {
   width: 60%;
   margin: auto;
-  height: 100vh;
+  min-height: 100vh;
   background: url('./assets/clear-sky.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border: solid 2px grey;
   color: white;
+  text-shadow: 4px 4px 8px black;
 }
 
 .loading {
@@ -70,9 +75,37 @@ body {
 }
 
 .details {
-  background-color: rgba(135, 206, 235, .6);
-  border-radius: 25px;
   margin: 3%;
+  display: grid;
+  grid-template-columns: repeat(6, 14%);
+  column-gap: 3%;
+  row-gap: 3%;
+}
+
+.square{
+  background-color: rgba(135, 206, 235, .7);
+  border-radius: 25px;
+  padding: 3%;
+}
+
+.humidity {
+  grid-column: span 2;
+}
+
+.wind {
+  grid-column: span 2;
+}
+
+.feelsLike {
+  grid-column: span 2;
+}
+
+.sun_up {
+  grid-column: span 3;
+}
+
+.sun_down {
+  grid-column: span 3;
 }
 
 input {

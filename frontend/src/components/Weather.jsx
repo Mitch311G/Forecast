@@ -5,7 +5,6 @@ const Weather = ({ weatherData }) => {
     <div className='weather'>
       <div className='header'>{weatherData.name}</div>
       <div className='temp'>{Math.round(weatherData.main.temp)}&deg;</div>
-      {/* <div className='feels'> Feels like {weatherData.main.feels_like}</div> */}
       <div className='description'>{weatherData.weather[0].description}</div>
       <div className='min_max'>
         <span className='high'>H:{Math.round(weatherData.main.temp_min)}&deg;</span>
@@ -13,15 +12,36 @@ const Weather = ({ weatherData }) => {
       </div>
 
       <div className='details'>
-        <div>Humidity {weatherData.main.humidity}%</div>
-        <div>Wind {Math.round(weatherData.wind.speed)}mph</div>
-        <div>Feels like {Math.round(weatherData.main.feels_like)}&deg;</div>
-        <div className='sun_up'>
-          Sunrise {new Date(weatherData.sys.sunrise * 1000).toLocaleTimeString('en-IN',{hour:'2-digit', minute:'2-digit'})}
+
+        <div className='humidity square'>
+          <div>Humidity</div>
+          <div>{weatherData.main.humidity}%</div>
         </div>
-        <div className='sun_down'>
-          Sunset {new Date(weatherData.sys.sunset * 1000).toLocaleTimeString('en-IN',{hour:'2-digit', minute:'2-digit'})}
+
+        <div className='wind square'>
+          <div>Wind</div>
+          <div>{Math.round(weatherData.wind.speed)} mph</div>
         </div>
+
+        <div className='feelsLike square'>
+          <div>Feels like</div>
+          <div>{Math.round(weatherData.main.feels_like)}&deg;</div>
+        </div>
+
+        <div className='sun_up square'>
+          <div>Sunrise</div>
+          <div>
+            {new Date(weatherData.sys.sunrise * 1000).toLocaleTimeString('en-IN',{hour:'2-digit', minute:'2-digit'})}
+          </div>
+        </div>
+
+        <div className='sun_down square'>
+          <div>Sunset</div>
+          <div>
+            {new Date(weatherData.sys.sunset * 1000).toLocaleTimeString('en-IN',{hour:'2-digit', minute:'2-digit'})}
+          </div>
+        </div>
+
       </div>
     </div>
   )
