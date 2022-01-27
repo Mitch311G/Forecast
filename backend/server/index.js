@@ -31,10 +31,3 @@ app.post('/api/cities', (req, res) => {
     }
   });
 });
-
-app.delete('/api/cities', (req, res) => {
-  let toDelete = req.body
-  deleteCity(toDelete, () => {
-    res.send('deleted')
-  })
-})
