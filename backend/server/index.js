@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const db = require('../database')
-const { findCities, saveCity } = require('../database/controllers/Cities.js');
+const { findCities, saveCity, deleteCity } = require('../database/controllers/Cities.js');
 
 const app = express();
 const PORT = 3000;
@@ -23,7 +23,6 @@ app.get('/api/cities', (req, res) => {
 
 app.post('/api/cities', (req, res) => {
   const name = req.body;
-  console.log(name)
   saveCity(name, (err) => {
     if (err) {
       res.status(400).send(err);
@@ -33,6 +32,9 @@ app.post('/api/cities', (req, res) => {
   });
 });
 
-// app.delete('/api/cities', (req, res) => {
-
-// })
+app.delete('/api/cities', (req, res) => {
+  let toDelete = req.body
+  deleteCity(toDelete, () => {
+    res.send('deleted')
+  })
+})

@@ -58,8 +58,8 @@ const App = () => {
         </div>
       </div>
 
-      <Dropdown cities={cities} fetchCityWeather={fetchCityWeather} fetchLocalWeather={fetchLocalWeather}/>
       <NewCity fetchCities={fetchCities}/>
+      <Dropdown cities={cities} fetchCityWeather={fetchCityWeather} fetchLocalWeather={fetchLocalWeather}/>
 
       {(typeof weatherData.main != 'undefined')
         ? <Weather weatherData={weatherData} />

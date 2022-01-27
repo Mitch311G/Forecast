@@ -11,6 +11,7 @@ body {
   padding: 5% 5% 2%;
   font-style: italic;
   height: 2%;
+  margin-bottom: 2%;
 }
 
 .today {
@@ -72,4 +73,49 @@ body {
   background-color: rgba(135, 206, 235, .6);
   border-radius: 25px;
   margin: 3%;
+}
+
+input {
+  background-color: rgba(135, 206, 235, .6);
+  border-radius: 25px;
+  border-style: none;
+  font-size: 1.5em;
+  color: yellow;
+  margin-right: 1%;
+  margin-left: 5%;
+  padding: 0.25em;
+  margin-bottom: 2%;
+}
+
+::placeholder {
+  color: yellow;
+  opacity: .8;
+}
+
+button {
+  border-radius: 50%;
+  font-size: 1.5em;
+  color: yellow;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 0.15em;
+  border-color: yellow;
+  font-weight: bold;
+}
+
+button:hover {
+  color: white;
+  background-color: rgba(135, 206, 235, 1);
+  border-color: white;
+}
+
+.dropdown {
+  background-color: transparent;
+  font-size: 1.5em;
+  border: none;
+  border-bottom: 0.25em solid yellow;
+  color: yellow;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  width: fit-content;
 }

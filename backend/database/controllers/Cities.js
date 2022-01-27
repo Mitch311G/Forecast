@@ -9,7 +9,12 @@ const saveCity = (name, callback) => {
   doc.save(callback)
 }
 
+const deleteCity = (toDelete, callback) => {
+  Cities.deleteOne(toDelete, callback)
+}
+
 module.exports = {
   findCities,
-  saveCity
+  saveCity,
+  deleteCity
 }

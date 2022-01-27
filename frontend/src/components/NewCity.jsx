@@ -10,11 +10,15 @@ const NewCity = ({ fetchCities }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post('/api/cities', {name: newCity})
+    if (newCity === '') {
+      alert('Please enter a city name')
+    } else {
+      axios.post('/api/cities', {name: newCity})
       .then(() => setNewCity(''))
       .then(() => fetchCities())
       .then(() => alert('New city added'))
       .catch(err => console.log(err))
+    }
   }
 
   return (
