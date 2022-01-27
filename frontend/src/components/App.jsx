@@ -50,8 +50,9 @@ const App = () => {
 
   return (
     <div>
-      <div className="pageHeader">
-        <span>FORECAST</span>
+      <div className='pageHeader'>
+        <span className='logo'>FORECAST</span>
+        <i className='fas fa-cloud-sun'></i>
         <div className='today'>
           <div className='day'>{moment().format('dddd')}</div>
           <div>{moment().format('LL')}</div>
