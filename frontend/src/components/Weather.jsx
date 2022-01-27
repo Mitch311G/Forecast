@@ -7,8 +7,8 @@ const Weather = ({ weatherData }) => {
       <div className='temp'>{Math.round(weatherData.main.temp)}&deg;</div>
       <div className='description'>{weatherData.weather[0].description}</div>
       <div className='min_max'>
-        <span className='high'>H:{Math.round(weatherData.main.temp_min)}&deg;</span>
-        <span className='low'>L:{Math.round(weatherData.main.temp_max)}&deg;</span>
+        <span className='high'>H:{Math.round(weatherData.main.temp_max)}&deg;</span>
+        <span className='low'>L:{Math.round(weatherData.main.temp_min)}&deg;</span>
       </div>
 
       <div className='details'>
