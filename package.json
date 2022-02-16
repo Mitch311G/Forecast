@@ -4,9 +4,10 @@
   "description": "weather application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "react-dev": "webpack --config ./webpack.config.js --mode development -w",
-    "start-dev": "nodemon backend/server/index.js"
+    "build-dev": "webpack --config ./webpack.config.js --mode development -w",
+    "build": "webpack --config ./webpack.config.js --mode production",
+    "start-dev": "nodemon backend/server/index.js",
+    "start": "node backend/server/index.js"
   },
   "repository": {
     "type": "git",
