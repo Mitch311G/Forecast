@@ -1,5 +1,5 @@
 # Forecast
-
+<img src="readmeAssets/FORECAST.png"></img>
 ## Description
 A weather app that displays current weather conditions based on the user's location. The app also features the ability for user's to add locations and check the weather for a selected location. Forecast was created from scratch using ReactJS, ExpressJS, and MongoDB with weather data sourced from the OpenWeather API.
 <!-- Insert photos/gifs here -->
