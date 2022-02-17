@@ -5,7 +5,10 @@
 
 ## Description
 A weather app that displays current weather conditions based on the user's location. The app also features the ability for user's to add locations and check the weather for a selected location. Forecast was created from scratch using ReactJS, ExpressJS, and MongoDB with weather data sourced from the OpenWeather API.
-<!-- Insert photos/gifs here -->
+<p align="center">
+<img src="readmeAssets/local_weather.jpg">
+</p>
+
 ---
 ## Installation
 **Make sure your system meets the requirements below before following installation**
@@ -26,6 +29,7 @@ A weather app that displays current weather conditions based on the user's locat
     - [MongoDB Community Edition](https://docs.mongodb.com/manual/installation/)
         - Be sure to run MongoDB as a service. Insturctions found in installation guide for your system (link above).
 2. Obtain your own [OpenWeather API key](https://openweathermap.org/api).
+3. Allow your browser to access your location.
 ---
 ## Usage
 - To get your local weather, simply launch the application.

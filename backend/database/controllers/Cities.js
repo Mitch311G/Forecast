@@ -15,5 +15,6 @@ const deleteCity = (toDelete, callback) => {
 
 module.exports = {
   findCities,
-  saveCity
+  saveCity,
+  deleteCity
 }

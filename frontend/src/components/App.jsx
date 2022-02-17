@@ -1,6 +1,5 @@
-import React, { useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { API_KEY, API_URL } from '../config/config.js';
 import Weather from './Weather.jsx';
 import moment from 'moment';
 import Dropdown from './Dropdown.jsx';
@@ -15,11 +14,11 @@ const App = () => {
       const newLat = position.coords.latitude;
       const newLong = position.coords.longitude;
 
-      axios.get(`${API_URL}/weather?`, {
+      axios.get(`${process.env.API_URL}/weather?`, {
         params: {
           lat: newLat,
           lon: newLong,
-          appid: API_KEY,
+          appid: process.env.API_KEY,
           units: 'imperial'
         }
       })
@@ -33,10 +32,10 @@ const App = () => {
   }
 
   const fetchCityWeather = (cityName) => {
-    axios.get(`${API_URL}/weather?`, {
+    axios.get(`${process.env.API_URL}/weather?`, {
       params: {
         q: cityName,
-        appid: API_KEY,
+        appid: process.env.API_KEY,
         units: 'imperial'
       }
     })

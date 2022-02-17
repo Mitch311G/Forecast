@@ -4,7 +4,7 @@ const db = require('../database')
 const { findCities, saveCity, deleteCity } = require('../database/controllers/Cities.js');
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 app.use(express.static(path.resolve(__dirname, '..','..', 'frontend/dist')));
