@@ -37,7 +37,7 @@ A weather app that displays current weather conditions based on the user's locat
     - Type the name of the "City, State" into the box at the top left corner of the app body and click the add (+) button.
     - Click the drop down menu below the input box and select the loaction of your choosing to view current weather data.
 <p align="center">
-<img src="readmeAssets/usage.gif">
+<img src="readmeAssets/usage.gif" width="80%" height="20%">
 </p>
 
 ---
@@ -52,4 +52,4 @@ A weather app that displays current weather conditions based on the user's locat
     - Starts the app's server, but **does not watch for file changes**.
 ---
 ## Author and other
-***Forecast*** was developed by Mitchell Gardner, originally build in a 2-day MVP sprint for the Hack Reactor *Advanced Software Engineering Immersive Program*. Future features to be added include: ability to delete locations from list, dynamic rendering of background based on current weather, and additional forecast data (ex. 5 day forecast).
+***Forecast*** was developed by Mitchell Gardner, originally build in a 2-day MVP sprint for the Hack Reactor *Advanced Software Engineering Immersive Program*. Future features to be added include: ability to delete locations from list, dynamic rendering of background based on current weather, and additional forecast data (ex. 7 day forecast).
