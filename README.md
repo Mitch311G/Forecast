@@ -36,7 +36,9 @@ A weather app that displays current weather conditions based on the user's locat
 - To add and view new locations:
     - Type the name of the "City, State" into the box at the top left corner of the app body and click the add (+) button.
     - Click the drop down menu below the input box and select the loaction of your choosing to view current weather data.
-<!-- Insert photos/gifs here -->
+<p align="center">
+<img src="readmeAssets/usage.gif">
+</p>
 ---
 ## Provided scripts
 - `npm run build-dev`
