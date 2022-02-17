@@ -39,6 +39,7 @@ A weather app that displays current weather conditions based on the user's locat
 <p align="center">
 <img src="readmeAssets/usage.gif">
 </p>
+
 ---
 ## Provided scripts
 - `npm run build-dev`
