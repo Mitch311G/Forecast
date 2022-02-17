@@ -1,12 +1,12 @@
-# Forecast
-<p align="center">
+<h1 align="center">Forecast</h1>
+<!-- <p align="center">
 <img src="readmeAssets/FORECAST.png" width="100%">
-</p>
+</p> -->
 
 ## Description
 A weather app that displays current weather conditions based on the user's location. The app also features the ability for user's to add locations and check the weather for a selected location. Forecast was created from scratch using ReactJS, ExpressJS, and MongoDB with weather data sourced from the OpenWeather API.
 <p align="center">
-<img src="readmeAssets/local_weather.jpg">
+<img src="readmeAssets/local_weather.jpg" width="80%" height="20%">
 </p>
 
 ---
@@ -51,4 +51,4 @@ A weather app that displays current weather conditions based on the user's locat
     - Starts the app's server, but **does not watch for file changes**.
 ---
 ## Author and other
-*Forecast* was developed by Mitchell Gardner, originally build in a 2-day MVP sprint for the Hack Reactor *Advanced Software Engineering Immersive Program*. Future features to be added include: ability to delete locations from list, dynamic rendering of background based on current weather, and additional forecast data (ex. 5 day forecast).
+***Forecast*** was developed by Mitchell Gardner, originally build in a 2-day MVP sprint for the Hack Reactor *Advanced Software Engineering Immersive Program*. Future features to be added include: ability to delete locations from list, dynamic rendering of background based on current weather, and additional forecast data (ex. 5 day forecast).
