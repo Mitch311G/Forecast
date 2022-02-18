@@ -40,7 +40,7 @@ A weather app that displays current weather conditions based on the user's locat
 ---
 ## Provided scripts
 - `npm run build-dev`
-    - Using webpack and babel, this will bundle and transpile the contents of `frontend/src` directory into bundled `.js` file for browser consumption, which are linked to `index.html`, then **watch for changes and re-bundle on file changes**.
+    - Using webpack and babel, this will bundle and transpile the contents of `frontend/src` directory into bundled `.js` file for browser consumption, which is linked to `index.html`, then **watch for changes and re-bundle on file changes**.
 - `npm run build`
     - Builds the bundle for production and **does not watch for file changes**.
 - `npm run start-dev`
@@ -49,4 +49,4 @@ A weather app that displays current weather conditions based on the user's locat
     - Starts the app's server, but **does not watch for file changes**.
 ---
 ## Author and other
-***Forecast*** was developed by Mitchell Gardner, originally build in a 2-day MVP sprint for the Hack Reactor *Advanced Software Engineering Immersive Program*. Future features to be added include: ability to delete locations from list, dynamic rendering of background based on current weather, and additional forecast data (ex. 7 day forecast).
+***Forecast*** was developed by [Mitchell Gardner](https://github.com/Mitch311G), originally build in a 2-day MVP sprint for the Hack Reactor *Advanced Software Engineering Immersive Program*. Future features to be added include: ability to delete locations from list, dynamic rendering of background based on current weather, and additional forecast data (ex. 7 day forecast).
