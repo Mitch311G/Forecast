@@ -1,12 +1,9 @@
 <h1 align="center">Forecast</h1>
-<!-- <p align="center">
-<img src="readmeAssets/FORECAST.png" width="100%">
-</p> -->
 
 ## Description
 A weather app that displays current weather conditions based on the user's location. The app also features the ability for user's to add locations and check the weather for a selected location. Forecast was created from scratch using ReactJS, ExpressJS, and MongoDB with weather data sourced from the OpenWeather API.
 <p align="center">
-<img src="readmeAssets/local_weather.jpg" width="80%" height="20%">
+<img src="readmeAssets/local_weather.png" width="80%" height="20%">
 </p>
 
 ---
@@ -47,7 +44,7 @@ A weather app that displays current weather conditions based on the user's locat
 - `npm run build`
     - Builds the bundle for production and **does not watch for file changes**.
 - `npm run start-dev`
-    - Starts the development server (default is localhost:3000), then **watches for changes and restarts the serve with updated content on file change**.
+    - Starts the development server (default is localhost:3000), then **watches for changes and restarts the server with updated content on file change**.
 - `npm run start`
     - Starts the app's server, but **does not watch for file changes**.
 ---

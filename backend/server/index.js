@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
 const db = require('../database')
+require('dotenv').config();
 const { findCities, saveCity, deleteCity } = require('../database/controllers/Cities.js');
 
 const app = express();
